@@ -1,0 +1,57 @@
+name = Parya
+description = Install profile for Parya.ca.
+version = "7.x-1.x-dev"
+core = 7.x
+project = "Ideograph"
+
+
+; Core Modules
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = locale
+
+
+; Contrib Modules
+dependencies[] = admin
+dependencies[] = date
+dependencies[] = ctools
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = globalredirect
+dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = devel
+dependencies[] = token
+dependencies[] = pathauto
+dependencies[] = transliteration
+dependencies[] = print
+dependencies[] = diff
+dependencies[] = webform
+dependencies[] = calendar
+;dependencies[] = google_analytics
+
+
+;dependencies[] = l10n_update
+;dependencies[] = l10n_client
+;dependencies[] = delta
+;dependencies[] = delta_ui
+
+
+
+files[] = parya.profile
